@@ -155,7 +155,7 @@
 								image: this.myroot + "/upload/" + data[i].image
 							}
 							//如果是做分页查询既要保持前面也得内容 又要加载新页的内容
-							this.productList.push(product)
+							this.productList.push(product);
 						}
 						if (flag == 1)
 							uni.stopPullDownRefresh()
